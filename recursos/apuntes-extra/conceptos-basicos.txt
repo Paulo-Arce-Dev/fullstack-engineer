@@ -1,0 +1,5 @@
+- Programación: Escribir instrucciones para que la computadora las ejecute en un lenguaje que la computadora pueda entender. 
+Estas instrucciones pueden procesar algunos números, modificar texto, buscar información en archivos o comunicarse con otras computadoras a través de Internet.
+
+La programación es una tarea creativa, al igual que pintar, escribir, tejer y construir castillos LEGO.
+
