@@ -6,10 +6,8 @@ Aquí voy registrando mi progreso, apuntes, ejercicios y proyectos integradores 
 ---
 
 ## 🚀 Objetivo
-- Dominar los **fundamentos de programación** y el **desarrollo web**.  
-- Profesionalizarme en herramientas modernas (TypeScript, DevOps, buenas prácticas).  
-- Aplicar los conocimientos en proyectos reales.  
-- Especializarme en **Inteligencia Artificial y Machine Learning** para diferenciarme en el mercado laboral.  
+- Crear Aplicaciones Web para solucionar problemas de proyectos.   
+- Especializarme en **Inteligencia Artificial y Machine Learning** para darle un salto de calidad a las aplicaciones.  
 
 ---
 
