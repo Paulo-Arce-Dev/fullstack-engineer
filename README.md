@@ -1,4 +1,4 @@
-# 📚 Plan de Estudio - Ingeniería de Software Autodidacta
+# 📚 Plan de Estudio - Ingeniería de Software 
 
 Este repositorio es mi bitácora de aprendizaje para convertirme en **ingeniero de software** de manera autodidacta.  
 Aquí voy registrando mi progreso, apuntes, ejercicios y proyectos integradores de cada fase.
