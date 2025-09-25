@@ -121,3 +121,27 @@ print(f"Caracteres sin espacios en la frase: {caracteres_sin_espacios_frase}")
 # contando las palabras
 cantidad_palabras_frase = len(frase.split(" "))
 print(f"Cantidad de palabras de la frase: {cantidad_palabras_frase}")
+
+# Ejercicio 11 - Sistema de Puntuación
+print("----- Ejercicio 11 -----")
+
+puntos_nivel_1 = 100
+puntos_nivel_2 = 250
+puntos_nivel_3 = 500
+
+# Cantidad de veces que un jugador completó el nivel (puedes cambiar estos valores)
+cantidad_veces_completado_lvl_1 = 5
+cantidad_veces_completado_lvl_2 = 3
+cantidad_veces_completado_lvl_3 = 1
+
+# calculando el puntaje total
+puntaje_total = (puntos_nivel_1 * cantidad_veces_completado_lvl_1) + (puntos_nivel_2 * cantidad_veces_completado_lvl_2) + (puntos_nivel_3 * cantidad_veces_completado_lvl_3)
+print(f"Puntaje total obtenido: {puntaje_total}")
+
+# nivel promedio del jugador
+suma_valores_niveles = (cantidad_veces_completado_lvl_1 * 1) + (cantidad_veces_completado_lvl_2 * 2) + (cantidad_veces_completado_lvl_3 * 3)
+
+total_niveles_completados = cantidad_veces_completado_lvl_1 + cantidad_veces_completado_lvl_2 + cantidad_veces_completado_lvl_3
+
+nivel_promedio = suma_valores_niveles / total_niveles_completados
+print(f"El promedio de nivel del jugador es de: {nivel_promedio:.2f} aproximadamente.")
