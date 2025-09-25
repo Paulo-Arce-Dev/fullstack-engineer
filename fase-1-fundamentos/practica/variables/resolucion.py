@@ -129,7 +129,7 @@ puntos_nivel_1 = 100
 puntos_nivel_2 = 250
 puntos_nivel_3 = 500
 
-# Cantidad de veces que un jugador completó el nivel (puedes cambiar estos valores)
+# Cantidad de veces que un jugador completó el nivel 
 cantidad_veces_completado_lvl_1 = 5
 cantidad_veces_completado_lvl_2 = 3
 cantidad_veces_completado_lvl_3 = 1
@@ -145,3 +145,26 @@ total_niveles_completados = cantidad_veces_completado_lvl_1 + cantidad_veces_com
 
 nivel_promedio = suma_valores_niveles / total_niveles_completados
 print(f"El promedio de nivel del jugador es de: {nivel_promedio:.2f} aproximadamente.")
+
+# Ejercicio 12 - Gestor de Presupuesto
+print("----- Ejercicio 12 -----")
+
+salario = 1500
+alquiler = 350
+comida_mensual = 750
+gastos_vehiculo = 80
+gastos_entretenimiento = 30
+
+total_gastos = alquiler + comida_mensual + gastos_vehiculo + gastos_entretenimiento
+print(f"El total de gastos fijos mensuales es de: {total_gastos} USD")
+
+dinero_restante = salario - total_gastos
+print(f"Por mes puedo ahorrar: {dinero_restante} USD")
+
+porcentaje_gastos_sobre_salario = (total_gastos * 100) / salario
+print(f"El porcentaje de gastos respecto a mi salario es de: {porcentaje_gastos_sobre_salario:.2f} %")
+
+if porcentaje_gastos_sobre_salario > 80:
+  print(f"Estas gastando mas del 80% de tu salario!")
+else:
+  print(f"No estas gastando mas del 80% de tu salario. Genial, puedes ahorrar dinero!") 
