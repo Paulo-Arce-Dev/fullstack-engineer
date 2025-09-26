@@ -192,3 +192,38 @@ print(f"El tiempo de carrera en segundos es de: {carrera_en_segundos:.2f}s")
 
 carrera_en_horas = tiempo_de_carrera_minutos / 60
 print(f"El tiempo de carrera en horas es de: {carrera_en_horas:.2f}h")
+
+
+# Ejercicio 14 - Análisis de Ventas
+print("----- Ejercicio 14 -----")
+
+precio_unitario_producto_1 = 1200
+precio_unitario_producto_2 = 800
+precio_unitario_producto_3 = 210
+
+cantidad_vendido_producto_1 = 15
+cantidad_vendido_producto_2 = 23
+cantidad_vendido_producto_3 = 12
+
+ventas_producto_1 = cantidad_vendido_producto_1 * precio_unitario_producto_1
+ventas_producto_2 = cantidad_vendido_producto_2 * precio_unitario_producto_2
+ventas_producto_3 = cantidad_vendido_producto_3 * precio_unitario_producto_3
+
+print(f"Ventas producto 1: ${ventas_producto_1}")
+print(f"Ventas producto 2: ${ventas_producto_2}")
+print(f"Ventas producto 3: ${ventas_producto_3}")
+
+ventas_totales = ventas_producto_1 + ventas_producto_2 + ventas_producto_3
+print(f"Ventas totales: ${ventas_totales}")
+
+if cantidad_vendido_producto_1 > cantidad_vendido_producto_2 and cantidad_vendido_producto_1 > cantidad_vendido_producto_3:
+  print(f"El producto mas vendido es el numero 1 con {cantidad_vendido_producto_1} ventas completadas")
+elif cantidad_vendido_producto_2 > cantidad_vendido_producto_3:
+  print(f"El producto mas vendido es el numero 2 con {cantidad_vendido_producto_2} ventas completadas")
+else:
+  print(f"El producto mas vendido es el numero 3 con {cantidad_vendido_producto_3} ventas completadas")  
+
+numero_clientes = 50
+ticket_promedio_por_cliente = ventas_totales / numero_clientes
+
+print(f"El ticket promedio por cliente es de: ${ticket_promedio_por_cliente:.2f}")
