@@ -227,3 +227,41 @@ numero_clientes = 50
 ticket_promedio_por_cliente = ventas_totales / numero_clientes
 
 print(f"El ticket promedio por cliente es de: ${ticket_promedio_por_cliente:.2f}")
+  
+
+# Ejercicio 15 - Sistema de Calificaciones
+print("----- Ejercicio 15 -----")
+
+peso_examen_1 = 20 / 100
+peso_examen_2 = 25 / 100
+peso_examen_3 = 30 / 100
+peso_examen_4 = 25 / 100
+
+# tabla de calificacion
+# A: 90-100
+# B: 80-89
+# C: 70-79
+# D: 60-69
+# F: < 60
+calificacion_examen_1 = 90 
+calificacion_examen_2 = 90
+calificacion_examen_3 = 80
+calificacion_examen_4 = 85
+
+promedio = (calificacion_examen_1 * peso_examen_1) + (calificacion_examen_2 * peso_examen_2) + (calificacion_examen_3 * peso_examen_3) + (calificacion_examen_4 * peso_examen_4)
+print(f"Promedio ponderado: {promedio:.2f}")
+
+if promedio >= 90 and promedio <= 100:
+  print(f"Su calificación es A")
+    
+if promedio >= 80 and promedio <= 89:
+  print(f"Su calificacion es B")
+  
+if promedio >= 70 and promedio <= 79:
+  print(f"Su calificacion es C")
+  
+if promedio >= 60 and promedio <= 69:
+  print(f"Su calificacion es D")
+elif promedio < 60:
+  print(f"Su calificacion es F")  
+  
