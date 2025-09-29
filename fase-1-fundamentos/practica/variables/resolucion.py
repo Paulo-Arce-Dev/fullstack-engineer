@@ -253,15 +253,13 @@ print(f"Promedio ponderado: {promedio:.2f}")
 
 if promedio >= 90 and promedio <= 100:
   print(f"Su calificación es A")
-    
-if promedio >= 80 and promedio <= 89:
+elif promedio >= 80 and promedio <= 89:
   print(f"Su calificacion es B")
-  
-if promedio >= 70 and promedio <= 79:
+elif promedio >= 70 and promedio <= 79:
   print(f"Su calificacion es C")
-  
-if promedio >= 60 and promedio <= 69:
+elif promedio >= 60 and promedio <= 69:
   print(f"Su calificacion es D")
 elif promedio < 60:
   print(f"Su calificacion es F")  
-  
+else:
+  print("Datos incorrectos!")
