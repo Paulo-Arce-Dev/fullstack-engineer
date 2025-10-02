@@ -60,7 +60,7 @@ print(f"El porcentaje de metros cuadrados desocupados del predio es de: {porcent
 """
 
 # Ejercicio 8
-
+"""  
 descuento = 15 / 100
 
 monto_total = float(input("Ingrese el monto total de la venta: "))
@@ -68,6 +68,21 @@ descuento_aplicado = monto_total * descuento
 
 monto_cobrar = monto_total - descuento_aplicado
 print(f"El total a cobrar con un 15% de descuento es de: ${monto_cobrar} ARS")
+"""
 
 # Ejercicio 9
+
+mujeres = int(input("Ingrese la cantidad de mujeres en la carrera: "))
+hombres = int(input("Ingrese la cantidad de hombres en la carrera: "))
+
+# 100%
+estudiantes_totales = mujeres + hombres
+
+porcentaje_mujeres = (mujeres * 100) / estudiantes_totales
+print(f"El porcentaje de muejres: {porcentaje_mujeres:.2f}%")
+
+porcentaje_hombres = 100 - porcentaje_mujeres 
+print(f"El porcentaje de hombres: {porcentaje_hombres:.2f}%")
+
+
 # Ejercicio 10
