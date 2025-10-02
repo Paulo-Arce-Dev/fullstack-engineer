@@ -48,7 +48,13 @@ print(f"Su promedio es de: {promeido:.2f}")
 # Ejercicio 7
 """ """
 metros_cuadrados_totales = float(input("Ingresa los metros cuadrados de un predio: "))
+metros_cubiertos = float(input("Ingresa los metros cuadrados cubiertos del predio: "))
 
+#porcentaje de metros cubiertos
+porcentaje_metros_cubiertos = (metros_cubiertos * 100) / metros_cuadrados_totales
+print(f"Porcentaje de metros cubiertos del predio: {porcentaje_metros_cubiertos:.2f}%")
+
+# porcentaje de metros descubiertos
 
 
 # Ejercicio 8
