@@ -71,7 +71,7 @@ print(f"El total a cobrar con un 15% de descuento es de: ${monto_cobrar} ARS")
 """
 
 # Ejercicio 9
-
+"""  
 mujeres = int(input("Ingrese la cantidad de mujeres en la carrera: "))
 hombres = int(input("Ingrese la cantidad de hombres en la carrera: "))
 
@@ -83,6 +83,18 @@ print(f"El porcentaje de muejres: {porcentaje_mujeres:.2f}%")
 
 porcentaje_hombres = 100 - porcentaje_mujeres 
 print(f"El porcentaje de hombres: {porcentaje_hombres:.2f}%")
-
+"""
 
 # Ejercicio 10
+numero_uno = float(input("Ingrese un numero por favor: "))
+numero_dos = float(input("Ingrese un segundo numero por favor: "))
+
+suma = numero_uno + numero_dos
+resta = numero_uno - numero_dos
+multilicacion = numero_uno * numero_dos
+division = numero_uno / numero_dos
+
+print(f"Resultados de la suma: {suma:.2f}")
+print(f"Resultados de la resta: {resta:.2f}")
+print(f"Resultados de la multiplicacion: {multilicacion:.2f}")
+print(f"Resultados de la division: {division:.2f}")
