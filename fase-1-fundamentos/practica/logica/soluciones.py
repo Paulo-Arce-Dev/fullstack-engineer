@@ -55,7 +55,8 @@ porcentaje_metros_cubiertos = (metros_cubiertos * 100) / metros_cuadrados_totale
 print(f"Porcentaje de metros cubiertos del predio: {porcentaje_metros_cubiertos:.2f}%")
 
 # porcentaje de metros descubiertos
-
+porcentaje_metros_descubiertos = 100 - porcentaje_metros_cubiertos
+print(f"El porcentaje de metros cuadrados desocupados del predio es de: {porcentaje_metros_descubiertos:.2f}%")
 
 # Ejercicio 8
 # Ejercicio 9
