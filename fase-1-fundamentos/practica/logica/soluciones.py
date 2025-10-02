@@ -46,7 +46,7 @@ print(f"Su promedio es de: {promeido:.2f}")
 """ 
 
 # Ejercicio 7
-""" """
+""" 
 metros_cuadrados_totales = float(input("Ingresa los metros cuadrados de un predio: "))
 metros_cubiertos = float(input("Ingresa los metros cuadrados cubiertos del predio: "))
 
@@ -57,7 +57,17 @@ print(f"Porcentaje de metros cubiertos del predio: {porcentaje_metros_cubiertos:
 # porcentaje de metros descubiertos
 porcentaje_metros_descubiertos = 100 - porcentaje_metros_cubiertos
 print(f"El porcentaje de metros cuadrados desocupados del predio es de: {porcentaje_metros_descubiertos:.2f}%")
+"""
 
 # Ejercicio 8
+
+descuento = 15 / 100
+
+monto_total = float(input("Ingrese el monto total de la venta: "))
+descuento_aplicado = monto_total * descuento
+
+monto_cobrar = monto_total - descuento_aplicado
+print(f"El total a cobrar con un 15% de descuento es de: ${monto_cobrar} ARS")
+
 # Ejercicio 9
 # Ejercicio 10
